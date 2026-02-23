@@ -55,7 +55,7 @@ Antaa sovellukselle julkisen verkko-osoitteen
 
 ## Käyttö ohje / asennus paikallisesti
 
-Kun olet kokeillut, että saat todo sovelluksen paikallisesti toimimaan luo githubiin uusi repositorio ja lataa tiedostot sinne
+- Kun olet kokeillut, että saat todo sovelluksen paikallisesti toimimaan siirretään se githubiin, jotta saadaan se toimimaan renderiin.s
 
 1. Lataa projekti
 
@@ -126,6 +126,7 @@ Root Directory	=        jätä tyhjäksi
 - Instanssista kannattaa valita ilmainen
 
 ## Lisää Environment Variables
+- Nämä pitää lisätä, koska render ei käytä .env tiedostoa, joten se tarvitsee tietokannan connectstringin muualta eli renderissä on ympäristö muuttujia joiden avulla pitää kertoa mitä .env sisältää
 
 Render → Environment → Add Variable
 
