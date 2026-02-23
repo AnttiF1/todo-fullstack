@@ -91,7 +91,7 @@ http://localhost:3000
 
 5. tee viellä .gitignore tiedosto ja lisää sinne
 node_modules/
-.env
+    .env
 
 ## Render-deploy
 - Luo githubiin uusi repositorio ja nimeä se esim "todo-fullstack"
