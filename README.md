@@ -78,6 +78,7 @@ Luo projektin juureen tiedosto nimeltä:
 Ja lisää sinne:
 
 PORT=3000
+
 MONGODB_URI=OMA_MONGODB_YHTEYS
 
 (MongoDB Atlasista saat yhteysosoitteen)
@@ -90,7 +91,9 @@ Avaa selaimessa:
 http://localhost:3000
 
 5. tee viellä .gitignore tiedosto ja lisää sinne
+   
 node_modules/
+
     .env
 
 ## Render-deploy
