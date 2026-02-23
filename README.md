@@ -93,8 +93,8 @@ http://localhost:3000
 5. tee viellä .gitignore tiedosto ja lisää sinne
 
 node_modules/
-
-.env
+ 
+  .env
 
 ## Render-deploy
 - Luo githubiin uusi repositorio ja nimeä se esim "todo-fullstack"
@@ -112,15 +112,16 @@ Render → New + → Web Service
 Valitse GitHub-repo jonka teit aikaisemmin.
 
 Asetukset Renderissä
-Kohta	                Arvo
 
-Environment	            Node
+Kohta  	        -         Arvo
+                
+Environment	    =        Node
 
-Build Command	        npm install
+Build Command	=        npm install
 
-Start Command	        node index.js
+Start Command	=        node index.js
 
-Root Directory	        jätä tyhjäksi
+Root Directory	=        jätä tyhjäksi
 
 - Instanssista kannattaa valita ilmainen
 
@@ -129,8 +130,11 @@ Root Directory	        jätä tyhjäksi
 Render → Environment → Add Variable
 
 Lisää:
+
 Key	Value
+
 MONGODB_URI	    "Oma mongodb connect stringi"
+
 CLIENT_ORIGIN	jätä tyhjäksi
 
 - Paina Deploy Web service
