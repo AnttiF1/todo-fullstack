@@ -91,10 +91,9 @@ Avaa selaimessa:
 http://localhost:3000
 
 5. tee viellä .gitignore tiedosto ja lisää sinne
-   
-node_modules/
 
-    .env
+node_modules/
+  .env
 
 ## Render-deploy
 - Luo githubiin uusi repositorio ja nimeä se esim "todo-fullstack"
@@ -130,6 +129,6 @@ MONGODB_URI	    "Oma mongodb connect stringi"
 CLIENT_ORIGIN	jätä tyhjäksi
 
 - Paina Deploy Web service
-    sinulle aukeaa ikkuna, jossa näkyy console johon tulee logeja kun se alkaa luomaan sitä. Lopuksi se kertoo sinulle consoleen url osoitteen, jossa saat todo sovelluksen auki.
+    sinulle aukeaa ikkuna, jossa näkyy console johon tulee logeja kun se alkaa luomaan sitä. Lopuksi se kertoo sinulle consoleen url osoitteen, jolla saat todo sovelluksen auki.
 
 - kopioi osoite, jonka se antaa ja liitä se hakukoneeseen ja nyt todo sovellus toimii renderissä.
