@@ -93,7 +93,8 @@ http://localhost:3000
 5. tee viellä .gitignore tiedosto ja lisää sinne
 
 node_modules/
-  .env
+
+.env
 
 ## Render-deploy
 - Luo githubiin uusi repositorio ja nimeä se esim "todo-fullstack"
@@ -111,11 +112,15 @@ Render → New + → Web Service
 Valitse GitHub-repo jonka teit aikaisemmin.
 
 Asetukset Renderissä
-Kohta	            Arvo
-Environment	        Node
-Build Command	    npm install
-Start Command	    node index.js
-Root Directory	    jätä tyhjäksi
+Kohta	                Arvo
+
+Environment	            Node
+
+Build Command	        npm install
+
+Start Command	        node index.js
+
+Root Directory	        jätä tyhjäksi
 
 - Instanssista kannattaa valita ilmainen
 
